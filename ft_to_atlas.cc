@@ -67,7 +67,6 @@ U32 get_text_max_height(std::string_view text, U32 font_index, float scale){
       height = (cxt.char_infos[font_index][text[i]].char_height ) * scale:
       height = height;
   }
-  std::cout << "height : " << height << std::endl;
   return height;
 }
 
